@@ -1,0 +1,8 @@
+Esta pasta target contém os arquivos .class compilados a partir do código-fonte
+incluído em src/. Ela pode ser recriada a qualquer momento com:
+
+    mvn clean test
+
+Observação: os testes JUnit foram compilados, mas não executados neste ambiente.
+Execute mvn clean test em um ambiente com Maven e acesso às dependências para
+validar a execução dos testes.
